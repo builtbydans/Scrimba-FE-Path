@@ -4,6 +4,9 @@
 **Margin** - We can use this in order to maipulate the space around an element. A neat
          trick to center objects is to ensure the margin-left and margin-right are auto.
 
+**Auto-Margin** - By default, every page has a set margin of 8px. In order to counter
+    this, you can set the body tag or * as margin: 0;
+
 **Dev-Tools** - We can Inspect Element using the in-browser dev tools to look at the box
             model of an element.
 
@@ -13,6 +16,10 @@
 
 **Height** - Some browsers do not honour the height property. Instead, we should use
          the line-height CSS property as this is more universally accepted.
+
+**Box-Model** - This is a model in CSS which includes margin, padding, border and
+            content. This 'model' wraps around every HTML element and can be
+            manipulated in order to fit the user requirements.
 
 **Buttons** - By default, buttons are display: inline;
 

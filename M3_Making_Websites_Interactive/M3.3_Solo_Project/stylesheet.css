@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  background-color: rgb(32, 32, 84);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.score-wrapper {
+  text-align: center;
+}
+
+.score-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 150px;
+  background-color: rgb(15, 15, 15);
+  border-radius: 5px;
+}
+
+.score {
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: rgb(255, 77, 77);
+  font-size: 100px;
+}
+
+.score-btns {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  padding: 10px;
+  background-color: rgb(32, 32, 84);
+  color: #9AABD8;
+  border: 2px solid #9AABD8;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: rgb(21, 21, 55);
+  border: 2px solid #4d556c;
+}
+
+#new-game {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}

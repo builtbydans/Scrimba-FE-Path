@@ -1,0 +1,21 @@
+body {
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(0, 84, 0);
+  color: wheat;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: goldenrod;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+button {
+  background-color: goldenrod;
+  width: 150px;
+  cursor: pointer;
+}

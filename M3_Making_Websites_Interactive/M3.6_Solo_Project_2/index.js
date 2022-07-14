@@ -23,8 +23,8 @@ function generatePassword() {
   for (let i = 0; i < passwordLength; i++) {
     let leftPW = characters[Math.floor(Math.random() * characters.length)];
     let rightPW = characters[Math.floor(Math.random() * characters.length)];
-    passwordLeft.push(leftPW);
-    passwordRight.push(rightPW);
+    passwordLeft[i] = leftPW;
+    passwordRight[i] = rightPW;
   };
 
   passwordBoxLeft.textContent = passwordLeft.join('');

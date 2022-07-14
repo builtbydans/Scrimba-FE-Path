@@ -11,3 +11,22 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 // Each password should be 15 characters long
 
 // STRETCH GOALS: Ability to set password length, copy-on-click, toggle symbols/nums in password.
+
+const passwordBoxLeft = document.getElementById('password-box--left');
+const passwordBoxRight = document.getElementById('password-box--right');
+
+let passwordLeft = [];
+let passwordRight = [];
+let passwordLength = 15;
+
+function generatePassword() {
+  for (let i = 0; i < passwordLength; i++) {
+    let leftPW = characters[Math.floor(Math.random() * characters.length)];
+    let rightPW = characters[Math.floor(Math.random() * characters.length)];
+    passwordLeft.push(leftPW);
+    passwordRight.push(rightPW);
+  };
+
+  passwordBoxLeft.textContent = passwordLeft.join('');
+  passwordBoxRight.textContent = passwordRight.join('');
+};

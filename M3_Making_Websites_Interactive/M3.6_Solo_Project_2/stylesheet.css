@@ -44,6 +44,10 @@ button {
   margin: 30px 0px;
 }
 
+button:hover {
+  background-color: #0ea472;
+}
+
 hr {
   width:100%;
   border: 0;
@@ -61,4 +65,8 @@ hr {
   width: 211px;
   height: 39px;
   border-radius: 5px;
+  color: #5DEF92;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
